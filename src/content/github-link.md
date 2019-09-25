@@ -1,28 +1,15 @@
 ---
 layout: post
-title: Github Source
+title: 欢迎
 image: img/callum-shaw-555357-unsplash.jpg
 author: Zeki
 date: 2019-03-10T10:00:00.000Z
 tags:
-  - Source
+  - Welcome
 ---
 
-You'll find the source of this blog on GitHub.  
-GitHub - https://github.com/scttcper/gatsby-casper
+欢迎来到我的博客。
 
-### Getting Started
+### 繁忙的生活和工作
 
-Clone this repo.
-
-```
-git clone https://github.com/scttcper/gatsby-casper.git --depth=1
-```
-
-Remove .git folder and setup a new one
-
-```
-rm -rf .git && git init
-```
-
-Now push to whatever repo you want!
+希望大家都有时间喝杯咖啡放松心情，而不是为了加班提神。
