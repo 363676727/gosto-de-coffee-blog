@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Gosto De Coffee',
     description: '过于执着天真的我(渣浪-zeki)',
-    siteUrl: 'https://gatsby-casper.netlify.com', // full path to blog - no ending slash
+    siteUrl: 'https://gosto-de-coffee-blog.netlify.com', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com',
+        siteUrl: 'https://gosto-de-coffee-blog.netlify.com/',
       },
     },
     'gatsby-plugin-emotion',
