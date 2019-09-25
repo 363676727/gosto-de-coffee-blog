@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Using The Ghost Editor"
-author: Ghost
-tags: ["Getting Started"]
+title: "偶尔编程写代码"
+author: Zeki
+tags: ["my-hobby"]
 image: img/writing.jpg
 date: "2015-02-02T23:46:37.121Z"
 draft: false

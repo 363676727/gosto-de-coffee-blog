@@ -134,17 +134,17 @@ class SiteNav extends React.Component<SiteNavProps> {
           <ul css={NavStyles} role="menu">
             {/* TODO: mark current nav item - add class nav-current */}
             <li role="menuitem">
-              <Link to="/">Home</Link>
+              <Link to="/">主页</Link>
             </li>
             <li role="menuitem">
-              <Link to="/about">About</Link>
+              <Link to="/about">关于我</Link>
             </li>
             <li role="menuitem">
-              <Link to="/tags/getting-started/">Getting Started</Link>
+              <Link to="/tags/my-hobby/">My-Hobby</Link>
             </li>
           </ul>
         </SiteNavLeft>
-        <SiteNavRight>
+        {/* <SiteNavRight>
           <SocialLinks>
             {config.facebook && (
               <a
@@ -173,7 +173,7 @@ class SiteNav extends React.Component<SiteNavProps> {
             <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
           )}
           {config.showSubscribe && <SubscribeModal ref={this.subscribe} />}
-        </SiteNavRight>
+        </SiteNavRight> */}
       </nav>
     );
   }
