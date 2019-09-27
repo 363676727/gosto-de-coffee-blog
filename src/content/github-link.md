@@ -14,4 +14,6 @@ tags:
 
 希望大家都有时间喝杯咖啡放松心情，而不是为了加班提神。
 
+我的微信号:
+
 ![Wechat Image](img/wechat.png)
