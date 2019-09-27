@@ -82,6 +82,11 @@ export interface IndexProps {
         fluid: any;
       };
     };
+    wechat: {
+      childImageSharp: {
+        fixed: any;
+      };
+    };
     allMarkdownRemark: {
       edges: Array<{
         node: PageContext;
@@ -149,6 +154,10 @@ const IndexPage: React.FC<IndexProps> = props => {
                 )}
               </SiteTitle>
               <SiteDescription>{config.description}</SiteDescription>
+              <img
+                style={{ maxHeight: '90px' }}
+                src={props.data.wechat.childImageSharp.fixed.src}
+              />
             </SiteHeaderContent>
             <SiteNav isHome />
           </div>
@@ -195,6 +204,15 @@ export const pageQuery = graphql`
         # Makes it trivial to update as your page's design changes.
         fluid(maxWidth: 2000) {
           ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    wechat: file(relativePath: { eq: "img/wechat.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fixed {
+          ...GatsbyImageSharpFixed
         }
       }
     }
