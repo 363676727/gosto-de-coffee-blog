@@ -94,7 +94,7 @@ const SubscribeForm: React.FC = () => {
       target="_blank"
     >
       {/* This is required for the form to work correctly  */}
-      <FormGroup className="form-group">
+      {/* <FormGroup className="form-group">
         <SubscribeEmail
           className="subscribe-email"
           type="email"
@@ -108,7 +108,7 @@ const SubscribeForm: React.FC = () => {
       </div>
       <SubscribeFormButton type="submit">
         <span>Subscribe</span>
-      </SubscribeFormButton>
+      </SubscribeFormButton> */}
     </form>
   );
 };
